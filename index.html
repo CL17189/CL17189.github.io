@@ -5,62 +5,66 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>个人网站</title>
   <style>
-    /* ... 前面的样式代码 ... */
-    .rotate {
-      animation: rotate 10s infinite linear;
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
     }
-    
-    @keyframes rotate {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
+    header {
+      background-color: #ff6f61;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 0;
+      font-size: 2rem;
     }
-    
-    .fade-in {
-      opacity: 0;
-      animation: fadeIn 2s forwards;
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      margin-top: 20px;
     }
-    
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
+    .profile-img {
+      max-width: 200px;
+      border-radius: 50%;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
     }
-    
-    .bounce {
-      animation: bounce 1s infinite;
+    .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
-    
-    @keyframes bounce {
-      0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-      }
-      40% {
-        transform: translateY(-20px);
-      }
-      60% {
-        transform: translateY(-10px);
-      }
+    .interest {
+      background-color: #f06292;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
     }
   </style>
 </head>
 <body>
   <header>
-    <!-- ... 头部代码 ... -->
+    <h1>欢迎来到我的炫酷个人网站</h1>
+    <p>探索我的世界，发现不一样的精彩</p>
   </header>
   <div class="container">
-    <img src="profile.jpg" alt="My Profile Picture" class="profile-img rotate">
-    <h2 class="fade-in">个人简介</h2>
-    <p class="fade-in">Hi，我是[你的名字]，一个充满创意和激情的人。在这个多彩的世界里，我用代码、设计和艺术表达自己。</p>
-    <h2 class="fade-in">我的兴趣</h2>
+    <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
+    <h2>个人简介</h2>
+    <p>Hi，我是[你的名字]，一个充满创意和激情的人。在这个多彩的世界里，我用代码、设计和艺术表达自己。</p>
+    <h2>我的兴趣</h2>
     <div class="interests">
-      <!-- ... 兴趣标签 ... -->
+      <div class="interest">编程</div>
+      <div class="interest">设计</div>
+      <div class="interest">艺术</div>
+      <div class="interest">音乐</div>
+      <div class="interest">旅行</div>
     </div>
-    <h2 class="fade-in">联系我</h2>
-    <p class="fade-in">如果你想要一起探索创意的世界，或者有什么问题，欢迎通过电子邮件 [你的电子邮件地址] 联系我。</p>
+    <h2>联系我</h2>
+    <p>如果你想要一起探索创意的世界，或者有什么问题，欢迎通过电子邮件 [你的电子邮件地址] 联系我。</p>
   </div>
 </body>
 </html>
