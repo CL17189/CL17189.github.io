@@ -5,46 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>个人网站</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
+    /* ... 前面的样式代码 ... */
+    .rotate {
+      animation: rotate 10s infinite linear;
     }
-    header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
+    
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
     }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 2rem;
-      background-color: #fff;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      margin-top: 20px;
+    
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 2s forwards;
     }
-    .profile-img {
-      max-width: 200px;
-      border-radius: 50%;
+    
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+    
+    .bounce {
+      animation: bounce 1s infinite;
+    }
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>欢迎来到我的个人网站</h1>
-    <p>一些关于我的信息和内容</p>
+    <!-- ... 头部代码 ... -->
   </header>
   <div class="container">
-    <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
-    <h2>个人简介</h2>
-    <p>你好！我是[你的名字]，欢迎访问我的个人网站。在这里，我将分享一些关于我的信息和兴趣爱好，以及一些有趣的内容。</p>
-    <h2>我的兴趣</h2>
-    <p>我对编程、设计和创意表达非常感兴趣。我喜欢学习新的技能，探索新的领域，并与他人分享我的经验和知识。</p>
-    <h2>联系我</h2>
-    <p>如果你有任何问题或想要与我交流，可以通过电子邮件 [你的电子邮件地址] 联系我。</p>
+    <img src="profile.jpg" alt="My Profile Picture" class="profile-img rotate">
+    <h2 class="fade-in">个人简介</h2>
+    <p class="fade-in">Hi，我是[你的名字]，一个充满创意和激情的人。在这个多彩的世界里，我用代码、设计和艺术表达自己。</p>
+    <h2 class="fade-in">我的兴趣</h2>
+    <div class="interests">
+      <!-- ... 兴趣标签 ... -->
+    </div>
+    <h2 class="fade-in">联系我</h2>
+    <p class="fade-in">如果你想要一起探索创意的世界，或者有什么问题，欢迎通过电子邮件 [你的电子邮件地址] 联系我。</p>
   </div>
 </body>
 </html>
