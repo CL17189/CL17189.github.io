@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <title>个人主页</title>
+</head>
+
+<body>
+  <div class="clock">
+    <div class="clock-description">UTC-8 Time:</div>
+    <div class="clock-text" id="clock-text"></div>
+  </div>
+
+
+  <header>
+    <a href="https://github.com" title="Visit My Github" target="_blank">
+      <img src="images/git.png" alt="GitHub" style="height: 75px; width: 75px;" class="github-icon">
+    </a>
+
+  </header>
+  <main>
+    <div class="profile">
+      <img src="images/ico.png" alt="Profile" class="rotate">
+      <div class="profile-text">
+        <p>Hi there! </p>
+        <p class="bold-text" style="font-size:25px;">I am CL17189</p>
+
+        <p></p>I'm a passionate problem solver who loves learning and connecting with diverse minds. </p>
+        <p>Let's create something amazing together!</p>
+      </div>
+    </div>
+    <p>Welcome to my personal website!</p>
+    <p>You can find my personal CV, life excerpts, projects, and some note contents below.</p>
+    <div class="icons">
+      <a href="CV.html" title="Browse my CV">
+        <i class="material-icons" style="font-size: 75px; color: rgb(153, 164, 164);">chat</i>
+        <p>CV</p>
+      </a>
+      <a href="live.html" title="Let's relax">
+        <i class="material-icons" style="font-size: 75px; color: rgb(153, 164, 164);">filter_hdr</i>
+        <p>Life</p>
+      </a>
+      <a href="Project.html" title="View some projects">
+        <i class="material-icons" style="font-size: 75px; color: rgb(153, 164, 164);">category</i>
+        <p>projects</p>
+      </a>
+      <a href="note.html" title="Read some notes">
+        <i class="material-icons" style="font-size: 75px; color: rgb(153, 164, 164);">lightbulb</i>
+        <p>Notes</p>
+      </a>
+    </div>
+
+  </main>
+  <footer>
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="#" title="Click me to copy" class="copy-email"
+          onclick="copyEmail(); return false;">your.email@example.com</a></p>
+      <p>Phone: <a href="#" title="Click me to copy" class="copy-email"
+          onclick="copyEmail(); return false;">123-456-789</a></p>
+      <!-- 可以根据需要添加其他联系方式，比如社交媒体等 -->
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
