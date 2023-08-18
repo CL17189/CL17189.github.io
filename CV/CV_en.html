@@ -253,6 +253,88 @@
                     driver cheating cases in key countries;
                 </p>
             </div>
+            <button class="accordion">Unfold reasoning of the report</button>
+            <div class="panel">
+                <h2>Approaches to Key Task: Analysis of Metric Changes</h2>
+                <p>When conducting data analysis in the internet industry, one common yet crucial task is performing
+                    in-depth analysis of various key metrics' fluctuations. This process helps us better understand
+                    changing trends in business operations, thereby providing more accurate support for strategic
+                    decisions. The following will delve into some of these approaches:</p>
+
+                <h2>Metric Framework: Marketing Monitoring + Risk Management</h2>
+                <p>Within our metric framework, we focus on key areas, namely marketing monitoring and risk management.
+                    This means we concentrate our study on a variety of data metrics related to marketing promotions and
+                    risk prevention. For instance, marketing aspects may encompass daily active users, conversion rates,
+                    reward amounts, and the ratio of reward issuance to Gross Merchandise Volume (GMV). On the other
+                    hand, risk management may include interception rates and loss ratios.</p>
+
+                <h2>Segmentation Approach: Funnel with Dimensions</h2>
+                <p>We adopt a funnel model combined with dimension analysis to delve more systematically into the data.
+                    For example, consider an e-commerce platform where we segment the shopping process into stages such
+                    as "product browsing," "adding to cart," "checkout," and "payment completion." For each stage, we
+                    introduce different dimensions, such as user geographical location, purchase channel, and product
+                    category, to comprehensively understand user behavior and changes.</p>
+
+                <h2>Fluctuation Analysis Process: Precision -> Periodic Changes -> Activity Changes -> Attribution</h2>
+                <p>Our fluctuation analysis aims to ensure no critical details are overlooked.</p>
+                <ul>
+                    <li><strong>Accuracy Verification:</strong> Before conducting any analysis, ensuring data accuracy
+                        is paramount. For instance, if we observe a sudden increase in sales revenue, we must confirm
+                        that it is not due to errors in spreadsheets or dashboards, but rather an actual business
+                        change.</li>
+                    <li><strong>Identification of Periodic Changes:</strong> In metric analysis, periodic fluctuations
+                        are common, and cyclic variations should not be treated as anomalies. Moreover, for metrics with
+                        cyclical fluctuations, we often need to observe data over a longer period. For instance, a
+                        ride-hailing platform may exhibit lower activity during weekends and a noticeable surge on
+                        Mondays. Identifying and appropriately considering these cyclic changes is crucial.</li>
+                    <li><strong>Recognition of Activity Changes:</strong> Various business activities or holidays may
+                        lead to metric changes. Imagine an e-commerce platform hosting a promotional event, resulting in
+                        a temporary increase in sales volume. Alternatively, a fintech company might introduce a new
+                        risk assessment model, impacting loan rejection rates. Verifying these changes requires
+                        collaboration with operational stakeholders.</li>
+                    <li><strong>Attribution Analysis:</strong> In-depth analysis often involves considering the type of
+                        business. For mature businesses, we typically have well-established dashboards for fluctuation
+                        analysis, and following the general workflow suffices. However, for high-priority or newly
+                        acquired businesses, we need to dig deeper.</li>
+                </ul>
+
+                <p><strong>There are roughly two main approaches:</strong> dimensions and metrics.</p>
+                <p><strong>Firstly, metrics:</strong> For composite metrics like reward issuance rate, which consists of
+                    reward amounts and GMV, we need to calculate or examine changes in these constituent metrics. This
+                    helps us understand who contributes to the overall metric change.</p>
+                <p><strong>Secondly, dimension breakdown:</strong> Once we understand the components of metric changes,
+                    we can relate them to various dimensions. Dimensions can encompass factors that influence business,
+                    such as geographical location, product line, user type, etc. By associating metric changes with
+                    dimensions, we can reveal the extent of different dimensions' impact on metric changes, leading to a
+                    more comprehensive analysis result. <br>
+                    <strong>Example:</strong> After comprehending the composition of sales growth, we can link these
+                    components to different dimensions, such as city, product line, purchase channel, etc., to discern
+                    which cities or product lines contribute the most to the overall growth.
+                </p>
+                <p>Special attention should be given to the <strong>Simpson's Paradox</strong>, a significant pitfall.
+                    For instance, while analyzing overall data, a trend in a certain dimension may emerge, but upon
+                    further segmentation, the opposite may be true. This reminds us to remain vigilant during analysis,
+                    ensuring that segmented analysis does not mask the overall trend.</p>
+
+                <h3>Automation Tasks</h3>
+                <p>Within the aforementioned process, we can establish automated tasks based on the existing approaches:
+                </p>
+                <ol>
+                    <li><strong>Exception Handling:</strong> We can develop automated scripts to monitor unusual
+                        fluctuations in key metrics. By setting thresholds or using statistical methods, the system can
+                        automatically detect significant deviations. Once identified, the system can generate alerts and
+                        incorporate confidence level estimation, helping decision-makers better understand the severity
+                        of anomalies.</li>
+                    <li><strong>Automated Data Script Generation:</strong> To accomplish metric breakdown, we can build
+                        automated data processing scripts. These scripts can extract essential information from source
+                        data and perform calculations and breakdowns based on predefined dimensions and metrics.
+                        Automated scripts can run periodically, ensuring we always have access to the latest analysis
+                        results. Additionally, these scripts can generate visualization reports for swift presentation
+                        of analysis results to decision-makers.</li>
+                </ol>
+            </div>
+
+
         </div>
 
         <!-- Other practical|internship experiences... -->
@@ -271,6 +353,7 @@
                 visualization, descriptive statistical analysis, TAM-TPB structural equation modeling, and SWOT
                 analysis.
             </div>
+
         </div>
 
         <hr>
