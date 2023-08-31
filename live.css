@@ -114,4 +114,43 @@
     background: rgba(255,223,67,1);
     transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  
+
+
+ /**/
+
+ /* 初始状态隐藏文本 */
+ .text {
+  position: absolute;
+  top: calc(50% + 125px); /* 调整垂直位置 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  color: #dbdd81;
+  opacity: 0; /* 初始时文本透明 */
+  transition: opacity 300ms ease-in-out; /* 添加透明度过渡效果 */
+  white-space: nowrap; /* 设置文本不换行 */
+}
+
+/* 鼠标悬停时显示文本 */
+.wrap:hover .text {
+  opacity: 1;
+}
+
+/* 灯泡点亮动画结束后显示文本 */
+.wrap .glow {
+  /* ... 其他样式 ... */
+}
+
+.wrap:hover .glow {
+  /* ... 点亮的样式 ... */
+  transition: all 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 300ms;
+  opacity: 0.2;
+}
+
+/* 鼠标悬停时显示文本 */
+.wrap:hover .text {
+  display: block;
+  transition: opacity 300ms;
+  opacity: 1;
+}
