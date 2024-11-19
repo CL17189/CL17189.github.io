@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chen Zhao(Lisa)</title>
+
+  <!--
+    - favicon 记得改logo
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <!--这里改成我的头像和旋转效果-->
+        <figure class="avatar-box">
+          <img src="./assets/images/add/headicon.jpg" alt="Chen Zhao(Lisa)" width=200px class="rotate">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Chen Zhao(Lisa)">Chen Zhao(Lisa)</h1>
+
+          <p class="title">Data developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+            <!--这里的点击复制效果-->
+            <a href="javascript:void(0)" class="contact-link">cmh17189@gmail.com</a>
+            <span class="copy-message" style="display: none; color: pink;">Copied!</span>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="javascript:void(0)" class="contact-link">+37-727748497</a>
+              <span class="copy-message" style="display: none; color: pink;">Copied!</span>
+            </div>
+
+          </li>
+
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Haidian,Beijing,CNA</address>
+              <address>Uppsala,SE</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chen-zhao-511033280/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/cl17189/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/CL17189" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            👋 Hi, I am <strong>Chen Zhao</strong>, AKA <strong>Lisa</strong> (preferred name). My pronouns are <strong>She/They</strong> 🌸.
+          </p>
+          <p>
+            🎓 I'm currently a master student majoring in <strong>Data Engineering</strong> at <strong>Uppsala University</strong>, Information Technology Department 📚.
+          </p>
+          <p>
+            🚀 Now, I am very interested in <strong>data infrastructure</strong> (ETL, Storage, Cloud Computing) in the industrial field , <strong>machine learning</strong> and <strong>data analysing</strong> and would love to work in this area in the future! 💻☁️
+          </p>
+          <p>
+            🌏 In the long term, I aspire to explore more places around the world and experience the freedom that comes with it 🌍✨. I love <strong>baking</strong> 🥐🍰 and <strong>trailways</strong> (Trains are the best! 🚆). (I will show you some in the Portfolio) I'm also interested in <strong>languages</strong> 📚🗣️. I studied Japanese in college to nearly N2 level 🇯🇵, and now I'm studying Swedish through SFI courses and self-study 🇸🇪📖.
+          </p>
+        </section>
+        
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing and maybe interests</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design Online and offline datawarehouse</h4>
+
+                <p class="service-item-text">
+                Efficient and hierarchical clear data warehouse
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Statistic Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Interpretable and predictively efficient models
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg" alt="Quote development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AWS based Datawarehouse</h4>
+
+                <p class="service-item-text">
+                  Online and offline datawarehouse based on AWS serverless service
+                </p>
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+<!--学校上学时间线-->
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">
+              <a href="https://en.ruc.edu.cn/" target="_blank">Renmin University of China</a>
+            </h4>
+            <span>2020 — 2024</span>
+            <p class="timeline-text">
+              A challenging yet growth-filled journey that shaped my academic and career aspirations 📈.
+            </p>
+            <ul>
+              <li><strong>🚀 Starting Out as an Aspiring Actuary:</strong> When I first joined the School of Statistics, my goal was to become an actuary .</li>
+              <li><strong>💼 Practical Experience Through Internships:</strong> I gained valuable experience by interning at various tech companies, where I aimed to provide insights as a data scientist or analyst to support business growth and innovation.</li>
+              <li><strong>🔧 Focusing on Data Engineering and Infrastructure:</strong> Over time, my focus shifted towards data engineering and infrastructure, and I began building my skill set in this area to gain hands-on expertise.</li>
+              <li><strong>🎓 Completed my Bachelor's thesis:</strong> I concluded my undergraduate studies with a thesis titled "<em>IntelliQuiltAI: A Study on a Commodity Sales Forecasting Model Based on Multimodal Data Fusion</em>."</li>
+
+            </ul>
+          </li>
+
+  <li class="timeline-item">
+    <h4 class="h4 timeline-item-title">
+      <a href="https://www.uu.se/en" target="_blank">Uppsala University</a>
+    </h4>
+    <span>2024 — 2026</span>
+    <p class="timeline-text">
+      An enriching experience in Scandinavia, fostering both personal and academic freedom 🎒.
+    </p>
+    <ul>
+      <li><strong>👥 Building Friendships:</strong> Embracing the opportunity to connect with people from diverse cultures and backgrounds 🤝🌐.</li>
+      <li><strong>🕊️ Seeking Freedom:</strong> Finding a sense of freedom in nature, social settings, and the academic environment, broadening my perspectives and understanding of the world 🌳🌄.</li>
+      <li><strong>In the Future: still exploring in both acedemic and career path and have not decided yet.</strong></li>
+    </ul>
+  </li>
+
+</ol>
+
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://www.kuaishou.com/en" target="_blank">Data Analyst Intern, Kuaishou</a></h4>
+              <span>Feb 2024 — Jun 2024</span>
+              <p class="timeline-text">
+                Participated in the construction of a data platform for a small to mid-sized e-commerce company as an intern, but played a crucial role in the team, working with colleagues from different departments and managers to explore data-driven strategies at each step under the 'Selection-Cultivation' guidance strategy. 
+                Increased GMV by 8% through data-driven strategies that optimized merchant selection and growth in the Q2 of 2024.
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://www.didiglobal.com/" target="_blank">Data Analyst Intern, Didi</a></h4>
+              <span>Mar 2023 — Jun 2023</span>
+              <p class="timeline-text">
+                Integrated different viewpoints to develop essential data dashboards, a data monitoring system, and data warehouse application tables for the anti-fraud team.
+                Reduced fraud losses in key regions from 20% to 5% by identifying and iterating anti-fraud strategies.
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"><a href="https://www.meituan.com/en-US/about-us" target="_blank">Data Analyst Intern, Meituan</a></h4>
+              <span>Jul 2023 — Oct 2023</span>
+              <p class="timeline-text">
+                Built and refined production reports and dashboards to monitor merchant supply quality. 
+                Conducted root cause analysis on data anomalies and contributed insights for business and product improvements.
+              </p>
+            </li>
+          
+            
+            
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Hadoop Items(Spark,Kafka,Flink,shell)</h5>
+                <data value="80">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python-Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Django</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AWS</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+      
+      <article class="portfolio" data-page="portfolio">
+
+        <!-- Baking Creations Section -->
+        <header>
+          <h2 class="h2 article-title">Baking Creations 🍰</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Cakes</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Cookies</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Pastries</button>
+            </li>
+          </ul>
+      
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+      
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Cakes</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Cookies</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Pastries</button>
+              </li>
+            </ul>
+          </div>
+      
+          <ul class="project-list">
+      
+            <li class="project-item active" data-filter-item data-category="cakes">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img id="img"  src="./assets/images/add/pineapple.jpg" alt="Pineapple Cake" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pineapple Cake</h3>
+                <p class="project-category">Cakes</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="cookies">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/cookie1.jpg" alt="Cookie Batch 1" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cookie Batch 1</h3>
+                <p class="project-category">Cookies</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="cookies">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/cookie2.jpg" alt="Cookie Batch 2" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cookie Batch 2</h3>
+                <p class="project-category">Cookies</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="cookies">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/cookie3.jpg" alt="Cookie Batch 3" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cookie Batch 3</h3>
+                <p class="project-category">Cookies</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="pastries">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/mooncake.jpg" alt="Mooncake" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mooncake</h3>
+                <p class="project-category">Pastries</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="pastries">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/bask.jpg" alt="bask" loading="lazy">
+                </figure>
+                <h3 class="project-title">bask</h3>
+                <p class="project-category">Pastries</p>
+              </a>
+            </li>
+      
+            <!-- 更多烘焙作品可以在此添加 -->
+      
+          </ul>
+      
+        </section>
+      
+        <!-- Trailways Section -->
+        <header>
+          <h2 class="h2 article-title">Trailways 🚂</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Sweden</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Japan</button>
+            </li>
+          </ul>
+      
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+      
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Sweden</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Japan</button>
+              </li>
+            </ul>
+          </div>
+      
+          <ul class="project-list">
+      
+            <li class="project-item active" data-filter-item data-category="sweden">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/trailway_upp.jpg" alt="Train in Uppsala" loading="lazy">
+                </figure>
+                <h3 class="project-title">Train in Uppsala</h3>
+                <p class="project-category">Sweden</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="japan">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/trailwayOkase1.jpg" alt="Railway in Japan - Okase 1" loading="lazy">
+                </figure>
+                <h3 class="project-title">Railway in Japan - Okase 1</h3>
+                <p class="project-category">Japan</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="japan">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/add/trailwayOkase2.jpg" alt="Railway in Japan - Okase 2" loading="lazy">
+                </figure>
+                <h3 class="project-title">Railway in Japan - Okase 2</h3>
+                <p class="project-category">Japan</p>
+              </a>
+            </li>
+      
+            <!-- 更多铁路照片可以在此添加 -->
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+      
+      
+      
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12430.258866780455!2d17.6289!3d59.8586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465fcbc8653a004b%3A0xb3d6a6db3c345b6c!2sUppsala%2C%20Sweden!5e0!3m2!1sen!2sse!4v1647608789441!5m2!1sen!2sse"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
